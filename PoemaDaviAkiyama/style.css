@@ -22,7 +22,8 @@ main .text02{
     padding: 4px;
     margin: 50px 10px 50px 10px;
     background-color: rgba(255, 255, 255, 0.637);
-    width: 55%;
+    width: 50%;
+    max-width: 300px;
     border-radius: 16px;
 }
 main .fundo01{
