@@ -1,0 +1,49 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: poem;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    text-align: center;
+}
+main .text01{
+    padding: 3px;
+    margin: 50px 10px 50px 10px;
+}
+main .text02{
+    padding: 4px;
+    margin: 50px 10px 50px 10px;
+    background-color: rgba(255, 255, 255, 0.637);
+    width: 55%;
+    border-radius: 16px;
+}
+main .fundo01{
+    background-image: url(image/um\ lugar\ tranquilo\ para\ reflexão\ sem\ nenhuma\ pessoa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px 0px 20px 0px;
+    background-position: center center;
+}
+main .fundo02{
+    background-image: url(image/Noite\ Estrelada\ e\ Céu\ Profundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px 0px 20px 0px;
+    background-position: center center;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    padding: 1px;
+}
