@@ -1,12 +1,12 @@
 
 body{
     background-color: rgb(255, 255, 255);
-    font-family: poem;
-    font-weight: 700;
+    font-weight: 500;
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
+    font-size: 4vw;
+    font-weight: 600;
 }
 header{
     background-color: rgb(0, 0, 0);
@@ -14,35 +14,45 @@ header{
     padding: 2px;
     text-align: center;
 }
+header h1{
+    font-variant: small-caps;
+    font-size: 6vw;
+}
+header a{
+    color: rgb(168, 0, 168);
+    transition:0.5s color;
+    
+}
+header a:hover{
+    color: rgb(0, 255, 170);
+}
 main .text01{
-    padding: 6px;
-    margin:10px;
+    padding: 10px;
+    margin: 30px;
+    max-width: 50%;
 }
 main .text02{
-    padding: 6px;
-    margin:10px;
-    background-color: rgba(197, 197, 197, 0.495);
-    width:70%;
-    max-width: 480px;
+    background-color: rgba(186, 186, 186, 0.267);
+    margin: 30px;
     border-radius: 16px;
+    display: inline-block;
+    max-width: 54%;
+    padding: 10px;
 }
 p{
     margin: 30px;
+    padding: 10px;
 }
 main .fundo01{
     background-image: url(image/um\ lugar\ tranquilo\ para\ reflexão\ sem\ nenhuma\ pessoa.png);
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 20px 0px 20px 0px;
     background-position: center center;
 }
 main .fundo02{
     background-image: url(image/Noite\ Estrelada\ e\ Céu\ Profundo.png);
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 20px 0px 20px 0px;
     background-position: center center;
 }
 footer{
