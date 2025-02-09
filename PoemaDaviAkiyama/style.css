@@ -20,14 +20,14 @@ header h1{
 }
 header a{
     color: rgb(168, 0, 168);
-    transition:0.5s color;
+    transition:0.6s;
     
 }
 header a:hover{
     color: rgb(0, 255, 170);
 }
 main .text01{
-    padding: 10px;
+    padding: 8px;
     margin: 30px;
     max-width: 50%;
 }
@@ -37,11 +37,16 @@ main .text02{
     border-radius: 16px;
     display: inline-block;
     max-width: 54%;
-    padding: 10px;
+    padding: 8px;
 }
 p{
     margin: 30px;
     padding: 10px;
+}
+@media (max-width: 768px) {
+    main .fundo01, main .fundo02 {
+        background-attachment: scroll;
+    }
 }
 main .fundo01{
     background-image: url(image/um\ lugar\ tranquilo\ para\ reflexão\ sem\ nenhuma\ pessoa.png);
@@ -55,6 +60,7 @@ main .fundo02{
     background-attachment: fixed;
     background-position: center center;
 }
+
 footer{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);

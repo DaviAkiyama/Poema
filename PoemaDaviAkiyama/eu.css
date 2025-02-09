@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(0, 115, 255);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: linear-gradient(to bottom, rgb(0, 84, 188),rgb(0, 57, 126),rgb(0, 35, 78));
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+header > h1{
+    margin: 10px auto;
+    font-size: 6vw;
+    max-width: 65%;
+}
+header > h3{
+    margin: 10px auto;
+    font-size: 6vw;
+    max-width: 65%;
+}
+h3 > a{
+    font-size: 6vw;
+    max-width: 65%;
+    color: rgb(0, 255, 170);
+    transition: 0.6s;
+}
+h3 > a:hover{
+    font-size: 6vw;
+    max-width: 65%;
+    color: rgb(168, 0, 168);
+}
+#parte01 > img{
+    width: 25%;
+    max-width: 200px;
+}
